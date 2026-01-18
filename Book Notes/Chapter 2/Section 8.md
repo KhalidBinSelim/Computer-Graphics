@@ -148,4 +148,3 @@ Compressed:
 * The header contains **format, size, type, and compression information**.
 * Image data stores **actual pixel values**.
 * **RLE** compresses data by replacing repeated values with a count.
-Just tell me 😊
