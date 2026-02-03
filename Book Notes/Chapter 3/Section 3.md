@@ -1,7 +1,6 @@
 
 ## Bresenham’s Line Algorithm (Simple & Exam-Oriented Explanation)
 
----
 
 ## 1. Why Bresenham’s Algorithm Is Needed
 
