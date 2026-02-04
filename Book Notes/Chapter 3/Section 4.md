@@ -70,28 +70,8 @@ Then we reflect those points to get the full circle.
 
 ---
 
-## 5. Mathematical Definition of a Circle (Method 1)
+<img width="709" height="525" alt="image" src="https://github.com/user-attachments/assets/7351e911-ef62-403c-875b-87d3f28c1833" />
 
-### Equation of a Circle (Centered at Origin)
-
-[
-x^2 + y^2 = r^2
-]
-
-Rewritten as:
-[
-y = \sqrt{r^2 - x^2}
-]
-
-Where:
-
-* ( r ) = radius
-* ( (x, y) ) = point on the circle
-
-### How It Works
-
-* Step x from **0 to ( \frac{r}{\sqrt{2}} )** (45° point)
-* For each x, compute y using square root
 
 ### Why This Is BAD ❌
 
@@ -104,35 +84,8 @@ Where:
 
 ---
 
-## 6. Mathematical Definition of a Circle (Method 2)
+<img width="769" height="682" alt="image" src="https://github.com/user-attachments/assets/696c8264-56e1-4aee-a26d-daa2ffeb7bc7" />
 
-### Trigonometric Form
-
-[
-x = r \cos \theta
-]
-[
-y = r \sin \theta
-]
-
-Where:
-
-* ( \theta ) = angle
-* ( r ) = radius
-
-### How It Works
-
-* Step ( \theta ) from 0° to 45°
-* Compute sin and cos for each step
-
-### Why This Is ALSO BAD ❌
-
-* sin() and cos() are **very expensive**
-* Slower than polynomial method
-
-👉 Even worse for hardware graphics
-
----
 
 ## 7. Conclusion from Both Methods
 
