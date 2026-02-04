@@ -1,6 +1,6 @@
 # 3.3 Scan-Converting a Circle (Simple Explanation)
 
----
+
 
 ## 1. Why Circle Scan Conversion Is Special
 
